@@ -1,0 +1,111 @@
+1st Class - 3rd May 2023
+
+AGILE Model 
+
+	Incrementaly & Iteratively 
+	MVP - Minimum viable product
+
+DevOps - Set of practices that combines develpoment team & Opeartions Team.
+
+
+
+Tools
+
+	Jira - Planning tool
+		High level task broken down to small task
+		Who Owns - Product owner & Scrum Master
+		To raise defect also we use
+	
+	Git
+		Storing our soucre code
+		Github - remote repository
+		
+	Maven - Used to Build code
+	
+	Selenium - For Test
+	
+	Deploy - Artifactory, AWS
+	
+	Operate - Ansible, Chef, Docker
+	
+	Monitor - Promentheus, Grafana
+	
+	Container Management Tools - Kubernetes
+			CCID (Continous Integration & Continuos Deployment)- Jenkins, Gitlab
+			Jenkins - Automation Tool
+
+
+
+--------------------------------------------------------------------------------------------
+
+2nd Class - 4th May 2023
+
+
+Git
+		Storing our source code
+		Github - Remote Repository
+				
+			Git Client tool installed in our system to access source code
+			
+			Git is also called as SCM tool/VCS (Version Control System)
+				To maintain diff version of code.
+				To maintain files/folders
+				
+				2 Types
+					Centralized VCS - SVN - Subversion
+						No local copy on our local machine
+						only remote repository
+					
+					Distributed VCS - Git
+						local repository on our local machine
+						local repository & remote repository
+		
+		Git Commands
+			git clone (link)
+			git status
+			git add --all
+			git commit -m "First Commit" (-m is message)
+			git push (link)
+			git config --global user.email shabaz.syed12@gmail.com
+			
+		Git uses 3 tier architecture
+		
+		
+
+--------------------------------------------------------------------------------------------
+
+
+4th Class - 8th May 2023
+
+Maven
+	Its Building & dependency management tool, provides developers a complete lifecycle 
+	framework.
+	Build VM/Build Agent/Runner
+	
+	Maven for Java
+	npm for Python
+	gradle for Andriod
+	IOS build for IOS
+	
+	JAR - Java archive
+	WAR - Web archive
+	EAR - Enterprise archive
+	
+	 when building for maven it refers to pom.xml (will have reference in pom.xml)
+		project object model
+		
+		
+
+Jenkins
+	Automation tool
+		Master - where jenkins is installed on EC2 machine, acts like manager
+		Slaves (Agents/Nodes/Build VM)
+		
+
+Docker
+	Container
+	
+
+https://github.com/VinCloud1/Jan2023_batch
+
+https://github.com/vincloud2/Helloworld-latest/tree/master
